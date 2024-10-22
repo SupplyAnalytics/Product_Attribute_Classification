@@ -38,7 +38,6 @@ def download_file_in_chunks(url, target_directory, records_per_file, num_files):
                     try:
                         data = json.loads(line.strip())
                         current_records.append(data)
-                        record_count += 1
                     except json.JSONDecodeError:
                         continue
             

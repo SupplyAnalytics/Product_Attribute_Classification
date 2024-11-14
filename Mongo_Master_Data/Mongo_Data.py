@@ -7,7 +7,7 @@ import os
 url = 'https://mongojsondumptemp.s3.ap-south-1.amazonaws.com/product_service_production/variant_image_vectors.json'
 
 # Target directory where you want to save the files
-target_directory = r"C:\Users\Admin\Attribute_Classification\Vectors_Data_2"
+target_directory = r"C:\Users\Aman\Desktop\Attribute_Classification\Vectors_Data_2"
 
 # Define how many records each file should contain
 records_per_file = 100000

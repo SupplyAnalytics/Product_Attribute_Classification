@@ -16,7 +16,10 @@ with open(MODEL_PATH, "rb") as f:
     model = pickle.load(f)
 
 # Streamlit UI
-st.title("Subcategory Prediction App")
+st.title("Subcategory Prediction App :shorts::shirt::jeans::kimono::bikini::tshirt::dress::shoe::boot::high_heel::sandal:")
+
+st.title(":yellow_heart: Hello Bijnicians... :sunglasses:")
+st.write("Hope you're doing well and enjoying your work today...:100:")
 st.write("Upload an image, and the app will predict the output using the pre-trained model.")
 
 # File uploader

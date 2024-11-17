@@ -6,8 +6,12 @@ import numpy as np
 from PIL import Image
 from image_vectors import extract_feature_vector
 
-# Load the pre-trained model
-MODEL_PATH = "sgd_model_unscaled.pkl"
+# # Load the pre-trained model
+# MODEL_PATH = "sgd_model_unscaled.pkl"
+# with open(MODEL_PATH, "rb") as f:
+#     model = pickle.load(f)
+
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "sgd_model_unscaled.pkl")
 with open(MODEL_PATH, "rb") as f:
     model = pickle.load(f)
 
